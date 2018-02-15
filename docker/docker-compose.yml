@@ -1,0 +1,10 @@
+version: '3'
+# bare bones docker-compose to illustrate scaling, from root dir use
+# docker-compose -f .\docker\docker-compose.yml up
+services:
+  demo:
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    expose:
+      - 8080
