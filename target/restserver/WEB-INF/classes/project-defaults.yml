@@ -1,7 +1,0 @@
-swarm:
-  http:
-    keystore:
-      path: keystore.jks
-      password: password
-    certificate:
-      alias: selfsigned
